@@ -11,6 +11,11 @@ header {
     14px 19px;
 }
 
+header a {
+  color: black;
+  text-decoration: none;
+}
+
 article {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -67,16 +72,16 @@ nav a {
   font-weight: bold;
 }
 
-a:hover {
+nav a:hover {
   color: black;
   text-decoration: underline;
 }
 
-a:visited {
+nav a:visited {
   color: black;
 }
 
-a:link {
+nav a:link {
   color: black;
 }
 
@@ -105,6 +110,10 @@ dl {
 
 dt {
   font-weight: bold;
+}
+
+dd {
+  font-style: italic;
 }
 
 input[type="email"] {
@@ -204,4 +213,19 @@ tr:nth-child(even) {
   width: 50%;
   margin: 0 auto;
   display: block;
+}
+
+.covid {
+  margin: 0 auto;
+  width: 50%;
+  text-align: left;
+}
+
+.covid ul {
+  list-style-image: url(../media/warning.png);
+  list-style-position: outside;
+}
+
+.covid li {
+  padding: 0.5rem;
 }
