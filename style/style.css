@@ -217,8 +217,10 @@ tr:nth-child(even) {
 
 .covid {
   margin: 0 auto;
+  padding: 0.8rem;
   width: 50%;
   text-align: left;
+  border: 3px solid #d64040;
 }
 
 .covid ul {
