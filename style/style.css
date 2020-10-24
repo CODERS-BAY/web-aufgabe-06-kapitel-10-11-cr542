@@ -1,13 +1,14 @@
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  background-color: rgba(111, 240, 141, 0.15);
 }
 
 header {
   padding: 0.15rem;
   margin: 0;
   text-align: center;
-  background-color: blanchedalmond;
+  background-color: rgba(111, 240, 141, 0.6);
 }
 
 article {
@@ -23,23 +24,23 @@ h1 {
 
 h1::first-letter {
   font-size: 36px;
-  color: darkblue;
+  color: #43a359;
 }
 
 h2::first-letter {
   font-size: 30px;
-  color: darkblue;
+  color: #43a359;
 }
 
 h3::first-letter {
   font-size: 26px;
-  color: darkblue;
+  color: #43a359;
 }
 
 nav {
   margin: 0 auto;
   padding: 0.15rem;
-  background-color: blanchedalmond;
+  background-color: rgba(111, 240, 141, 0.6);
 }
 
 nav ul {
@@ -71,7 +72,7 @@ footer {
   font-size: 80%;
   padding: 0.5rem;
   text-align: center;
-  background-color: blanchedalmond;
+  background-color: rgba(111, 240, 141, 0.6);
 }
 
 figcaption {
@@ -94,11 +95,11 @@ dt {
 }
 
 input[type="email"] {
-  background-color: aqua;
+  background-color: #fffde8;
 }
 
 input[type="text"] {
-  background-color: beige;
+  background-color: #fffde8;
 }
 
 ::placeholder {
@@ -157,7 +158,7 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: beige;
+  background-color: rgba(111, 240, 141, 0.3);
 }
 
 #patenkinder {
