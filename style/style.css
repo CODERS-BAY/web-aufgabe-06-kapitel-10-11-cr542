@@ -1,11 +1,10 @@
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   background-color: rgba(111, 240, 141, 0.15);
 }
 
 header {
-  padding: 0.15rem;
+  padding: 0.1rem;
   margin: 0;
   text-align: center;
   background-color: rgba(111, 240, 141, 0.6);
@@ -16,14 +15,23 @@ article {
   margin-bottom: 1rem;
   padding: 1rem;
   text-align: center;
+  font-family: "Noto Serif", serif;
+}
+
+p::first-letter {
+  font-size: 120%;
 }
 
 h1 {
   color: black;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.15);
+  font-size: 250%;
+  font-variant: small-caps;
 }
 
 h1::first-letter {
-  font-size: 36px;
+  font-weight: bold;
+  font-size: 120%;
   color: #43a359;
 }
 
@@ -39,7 +47,7 @@ h3::first-letter {
 
 nav {
   margin: 0 auto;
-  padding: 0.15rem;
+  padding: 0.1rem;
   background-color: rgba(111, 240, 141, 0.6);
 }
 
@@ -50,13 +58,17 @@ nav ul {
 }
 
 nav a {
-  padding: 2rem;
+  padding: 1.5rem;
   text-decoration: none;
   margin: 0;
+  font-variant: small-caps;
+  font-size: 130%;
+  font-weight: bold;
 }
 
 a:hover {
   color: black;
+  text-decoration: underline;
 }
 
 a:visited {
@@ -95,11 +107,11 @@ dt {
 }
 
 input[type="email"] {
-  background-color: #fffde8;
+  background-color: rgba(111, 240, 141, 0.03);
 }
 
 input[type="text"] {
-  background-color: #fffde8;
+  background-color: rgba(111, 240, 141, 0.03);
 }
 
 ::placeholder {
@@ -177,4 +189,10 @@ tr:nth-child(even) {
 .patenschaftstext::after {
   content: url("../media/lion.png");
   position: relative;
+}
+
+#foto_manfred {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
 }
