@@ -7,7 +7,8 @@ header {
   padding: 0.1rem;
   margin: 0;
   text-align: center;
-  background-color: rgba(111, 240, 141, 0.6);
+  background: rgba(111, 240, 141, 0.6) url(../media/monkey.png) no-repeat scroll
+    14px 19px;
 }
 
 article {
@@ -189,6 +190,14 @@ tr:nth-child(even) {
 .patenschaftstext::after {
   content: url("../media/lion.png");
   position: relative;
+}
+
+#panorama {
+  background-image: url(../media/zoopanorama.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 60vh;
 }
 
 #foto_manfred {
