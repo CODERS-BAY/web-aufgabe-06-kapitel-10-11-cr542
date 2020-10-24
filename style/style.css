@@ -206,7 +206,7 @@ tr:nth-child(even) {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 60vh;
+  min-height: 50vh;
 }
 
 #foto_manfred {
